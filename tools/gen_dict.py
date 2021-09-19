@@ -22,7 +22,7 @@ def load():
 
 
 def gen_pinyin_dict(src_path, dst_name):
-    dst_path = '../pypinyin_dict/pinyin_data/{}.py'.format(dst_name)
+    dst_path = '../src/pypinyin_dict/pinyin_data/{}.py'.format(dst_name)
     dist_path = os.path.abspath(dst_path)
     code = subprocess.call(['python', 'python-pinyin/gen_pinyin_dict.py',
                             src_path, dist_path])
@@ -38,7 +38,7 @@ def gen_pinyin_dict(src_path, dst_name):
 
 
 def gen_phrase_dict(src_path, dst_name):
-    dst_path = '../pypinyin_dict/phrase_pinyin_data/{}.py'.format(dst_name)
+    dst_path = '../src/pypinyin_dict/phrase_pinyin_data/{}.py'.format(dst_name)
     dist_path = os.path.abspath(dst_path)
     code = subprocess.call(['python', 'python-pinyin/gen_phrases_dict.py',
                             src_path, dist_path])

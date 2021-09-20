@@ -55,18 +55,18 @@ $ pip install pypinyin-dict
 
 
 # phrase-pinyin-data/pinyin.txt
->> from pypinyin_dict.pinyin_data import pinyin
+>> from pypinyin_dict.phrase_pinyin_data import pinyin
 
 # phrase-pinyin-data/zdic_cibs.txt
->> from pypinyin_dict.pinyin_data import zdic_cibs
+>> from pypinyin_dict.phrase_pinyin_data import zdic_cibs
 
 # phrase-pinyin-data/zdic_cybs.txt
->> from pypinyin_dict.pinyin_data import zdic_cybs
+>> from pypinyin_dict.phrase_pinyin_data import zdic_cybs
 
 # phrase-pinyin-data/cc_cedict.txt
->> from pypinyin_dict.pinyin_data import cc_cedict
+>> from pypinyin_dict.phrase_pinyin_data import cc_cedict
 
 # phrase-pinyin-data/large_pinyin.txt
->> from pypinyin_dict.pinyin_data import large_pinyin
+>> from pypinyin_dict.phrase_pinyin_data import large_pinyin
 
 ```

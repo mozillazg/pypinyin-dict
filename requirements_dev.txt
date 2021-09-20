@@ -1,0 +1,8 @@
+pypinyin>=0.42.0
+pytest>=6.2.5
+pytest-cov>=2.12.1
+pytest-random-order>=1.0.4
+twine>=3.4.2
+wheel>=0.37.0
+build>=0.7.0
+setuptools>=42

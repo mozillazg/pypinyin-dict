@@ -1,4 +1,5 @@
 # coding: utf-8
+from codecs import open
 import setuptools
 
 with open("README.md", "r", encoding="utf-8") as fh:

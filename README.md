@@ -1,6 +1,6 @@
 # pypinyin-dict
 
-使用 [pinyin-data](https://github.com/mozillazg/pinyin-data) 和 [phrase-pinyin-data](https://github.com/mozillazg/phrase-pinyin-data) 中的拼音数据文件覆盖 pypinyin 中的自带拼音数据，
+使用 [pinyin-data](https://github.com/mozillazg/pinyin-data) 和 [phrase-pinyin-data](https://github.com/mozillazg/phrase-pinyin-data) 中的拼音数据文件覆盖 [pypinyin](https://github.com/mozillazg/python-pinyin) 中的内置拼音数据，
 实现只使用某个或某些拼音数据文件中的拼音数据的需求。
 
 ## 安装

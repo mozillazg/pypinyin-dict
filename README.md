@@ -22,6 +22,17 @@ $ pip install pypinyin-dict
 
 >>> pinyin('枯萎')
 [['kū'], ['wěi']]
+
+
+>>> pinyin('扔', heteronym=True)
+[['rēng', 'rèng']]
+
+# 使用 pinyin-data 项目中 cc_cedict.txt 文件中的拼音数据优化结果
+>>> from pypinyin_dict.pinyin_data import kxhc1983
+>>> kxhc1983.load()
+
+>>> pinyin('扔', heteronym=True)
+[['rēng']]
 ```
 
 ## 模块介绍
@@ -29,7 +40,7 @@ $ pip install pypinyin-dict
 各个模块与数据文件关系如下（所有模块中都有一个 ``load()`` 函数用于导入对应的拼音数据，使用方法详见上方【使用示例】）：
 
 ```python
-# pinyin-data/kTGHZ2013.txt:
+# pinyin-data/kTGHZ2013.txt
 >> from pypinyin_dict.pinyin_data import ktghz2013
 
 # pinyin-data/kHanyuPinyin.txt

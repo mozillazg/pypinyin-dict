@@ -21,7 +21,6 @@ test:
 .PHONY: generate
 generate:
 	cd tools && \
-	git submodule update && \
 	make
 
 .PHONY: publish

@@ -27,7 +27,7 @@ $ pip install pypinyin-dict
 >>> pinyin('扔', heteronym=True)
 [['rēng', 'rèng']]
 
-# 使用 pinyin-data 项目中 cc_cedict.txt 文件中的拼音数据优化结果
+# 使用 pinyin-data 项目中 kXHC1983.txt 文件中的拼音数据优化结果
 >>> from pypinyin_dict.pinyin_data import kxhc1983
 >>> kxhc1983.load()
 

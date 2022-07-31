@@ -77,6 +77,9 @@ $ pip install pypinyin-dict
 # phrase-pinyin-data/cc_cedict.txt
 >> from pypinyin_dict.phrase_pinyin_data import cc_cedict
 
+# phrase-pinyin-data/di.txt
+>> from pypinyin_dict.phrase_pinyin_data import di
+
 # phrase-pinyin-data/large_pinyin.txt
 >> from pypinyin_dict.phrase_pinyin_data import large_pinyin
 

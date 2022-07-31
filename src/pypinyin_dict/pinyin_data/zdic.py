@@ -6375,7 +6375,7 @@ pinyin_dict = {
     0x520F: 'jī',
     0x5210: 'dǎn',
     0x5211: 'xíng',
-    0x5212: 'huá,huà,huai,guò,guǒ',
+    0x5212: 'huá,huà,huai,guò,guǒ',
     0x5213: 'wán',
     0x5214: 'jué',
     0x5215: 'lí',

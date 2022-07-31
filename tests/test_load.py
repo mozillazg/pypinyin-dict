@@ -15,7 +15,8 @@ from pypinyin_dict.phrase_pinyin_data import (
     large_pinyin,
     pinyin as phrase_pinyin,
     zdic_cibs,
-    zdic_cybs
+    zdic_cybs,
+    di
 )
 
 
@@ -36,3 +37,4 @@ def test_load_pharse_pinyin_data():
     phrase_pinyin.load()
     zdic_cibs.load()
     zdic_cybs.load()
+    di.load()

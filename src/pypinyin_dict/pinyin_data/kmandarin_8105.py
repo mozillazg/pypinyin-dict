@@ -4150,7 +4150,7 @@ pinyin_dict = {
     0x7513: 'pì',
     0x7517: 'yǎn',
     0x7518: 'gān',
-    0x751A: 'shén',
+    0x751A: 'shèn',
     0x751C: 'tián',
     0x751F: 'shēng',
     0x7521: 'shēn',

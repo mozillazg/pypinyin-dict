@@ -1,5 +1,12 @@
 # ChangeLog
 
+## [0.4.0] (2022-11-06)
+
+* 将 `phrase_pinyin_data` 中的多个数据文件切分为数量不等的 py 文件
+  解决 python 10 下可能会出现 `OverflowError: line number table is too long`
+  错误的问题。 (fixed [#3] [#5] )
+
+
 ## [0.3.0] (2022-07-31)
 
 * 基于 phrase-pinyin-data v0.13.0 以及 pinyin-data v0.13.0 生成最新的数据
@@ -18,6 +25,9 @@ from pypinyin_dict.phrase_pinyin_data import di
 
 * Initial Release
 
+[#3]: https://github.com/mozillazg/pypinyin-dict/issues/3
+[#5]: https://github.com/mozillazg/pypinyin-dict/issues/5
 
 [0.2.0]: https://github.com/mozillazg/pypinyin-dict/compare/v0.1.0...v0.2.0
 [0.3.0]: https://github.com/mozillazg/pypinyin-dict/compare/v0.2.0...v0.3.0
+[0.4.0]: https://github.com/mozillazg/pypinyin-dict/compare/v0.3.0...v0.4.0

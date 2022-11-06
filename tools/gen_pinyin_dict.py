@@ -1,6 +1,14 @@
 # -*- coding: utf-8 -*-
 import sys
 
+pinyin_dict_loader = '''
+from pypinyin import load_single_dict
+
+
+def load():
+    load_single_dict(pinyin_dict)
+'''
+
 
 def main(in_fp, out_fp):
     out_fp.write('''# -*- coding: utf-8 -*-
@@ -24,7 +32,9 @@ pinyin_dict = {
             #     0x4E2D: 'zhōng,zhòng'\n
             new_line = "    {new_line}',\n".format(new_line=new_line)
             out_fp.write(new_line)
-    out_fp.write('}\n')
+    out_fp.write('}\n\n')
+
+    out_fp.write(pinyin_dict_loader)
 
 
 if __name__ == '__main__':

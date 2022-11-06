@@ -3,6 +3,15 @@ import os.path
 import sys
 
 
+pharse_dict_loader = '''
+from pypinyin import load_phrases_dict
+
+
+def load():
+    load_phrases_dict(phrases_dict)
+'''
+
+
 def remove_dup_items(lst):
     new_lst = []
     for item in lst:
@@ -50,7 +59,9 @@ phrases_dict = {
             hanzi=hanzi.strip(), pinyin_list=pinyin_list
         )
         out_fp.write(new_line)
-    out_fp.write('}\n')
+    out_fp.write('}\n\n')
+
+    out_fp.write(pharse_dict_loader)
 
 
 def generate_multi_file(hanzi_pairs, out_name, num):
@@ -88,6 +99,8 @@ phrases_dict = {}
 from pypinyin_dict.phrase_pinyin_data import {0}
 phrases_dict.update({0}.phrases_dict)
 '''.format(base_name))
+
+        fp.write(pharse_dict_loader)
 
 
 def main(in_name, out_name, num):

@@ -18,6 +18,7 @@ from pypinyin_dict.phrase_pinyin_data import (
     zdic_cybs,
     di
 )
+from pypinyin import lazy_pinyin
 
 
 def test_load_pinyin_data():
@@ -38,3 +39,7 @@ def test_load_pharse_pinyin_data():
     zdic_cibs.load()
     zdic_cybs.load()
     di.load()
+
+
+def test_pypinyin():
+    lazy_pinyin('测试')

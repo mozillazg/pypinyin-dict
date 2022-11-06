@@ -84,3 +84,28 @@ $ pip install pypinyin-dict
 >> from pypinyin_dict.phrase_pinyin_data import large_pinyin
 
 ```
+
+## 生成文件
+
+依赖 Python 3 环境。
+
+clone 子模块：
+
+```
+git submodule init
+git submodule update
+```
+
+生成 py 文件：
+
+```
+make generate
+```
+
+编辑数据文件然后生成 py 文件：
+
+1. 进入 tools 目录
+2. 编辑 pinyin-data 或 phrase-pinyin-data 里的 txt 文件（tools 目录中 Makefile 里涉及的 txt 文件）
+3. 执行 `make generate` 生成最新的 py 文件
+4. 可以通过 `git diff` 查看变更内容
+

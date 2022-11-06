@@ -14,8 +14,8 @@ gen_pinyin_dict:
 
 gen_phrase_pinyin_dict:
 	python gen_dict.py phrase-pinyin-data/pinyin.txt
-	python gen_dict.py phrase-pinyin-data/zdic_cibs.txt
-	python gen_dict.py phrase-pinyin-data/zdic_cybs.txt
-	python gen_dict.py phrase-pinyin-data/cc_cedict.txt
+	python gen_dict.py phrase-pinyin-data/zdic_cibs.txt 8
+	python gen_dict.py phrase-pinyin-data/zdic_cybs.txt 3
+	python gen_dict.py phrase-pinyin-data/cc_cedict.txt 3
 	python gen_dict.py phrase-pinyin-data/di.txt
-	python gen_dict.py phrase-pinyin-data/large_pinyin.txt
+	python gen_dict.py phrase-pinyin-data/large_pinyin.txt 10

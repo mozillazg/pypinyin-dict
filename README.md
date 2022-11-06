@@ -102,7 +102,7 @@ git submodule update
 make generate
 ```
 
-编辑数据文件然后生成 py 文件：
+编辑数据文件然后生成 py 文件（可选）：
 
 1. 进入 tools 目录
 2. 编辑 pinyin-data 或 phrase-pinyin-data 里的 txt 文件（tools 目录中 Makefile 里涉及的 txt 文件）

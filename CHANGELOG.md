@@ -1,5 +1,11 @@
 # ChangeLog
 
+
+## [0.5.0] (2023-01-15)
+
+* 基于 phrase-pinyin-data v0.14.0 生成最新的数据
+
+
 ## [0.4.0] (2022-11-06)
 
 * 将 `phrase_pinyin_data` 中的多个数据文件切分为数量不等的 py 文件
@@ -31,3 +37,4 @@ from pypinyin_dict.phrase_pinyin_data import di
 [0.2.0]: https://github.com/mozillazg/pypinyin-dict/compare/v0.1.0...v0.2.0
 [0.3.0]: https://github.com/mozillazg/pypinyin-dict/compare/v0.2.0...v0.3.0
 [0.4.0]: https://github.com/mozillazg/pypinyin-dict/compare/v0.3.0...v0.4.0
+[0.5.0]: https://github.com/mozillazg/pypinyin-dict/compare/v0.4.0...v0.5.0

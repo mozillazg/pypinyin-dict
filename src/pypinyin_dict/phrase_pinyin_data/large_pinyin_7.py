@@ -3,6 +3,7 @@ from __future__ import unicode_literals
 
 # Warning: Auto-generated file, don't edit.
 phrases_dict = {
+    '罪慝': [['zuì'], ['tè']],
     '罪戮': [['zuì'], ['lù']],
     '罪戾': [['zuì'], ['lì']],
     '罪报': [['zuì'], ['bào']],
@@ -41196,7 +41197,6 @@ phrases_dict = {
     '谮人': [['zèn'], ['rén']],
     '谮妒': [['zèn'], ['dù']],
     '谮害': [['zèn'], ['hài']],
-    '谮恶': [['zèn'], ['è']],
 }
 
 

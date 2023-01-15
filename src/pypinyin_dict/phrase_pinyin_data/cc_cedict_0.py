@@ -3,7 +3,6 @@ from __future__ import unicode_literals
 
 # Warning: Auto-generated file, don't edit.
 phrases_dict = {
-    'ㄅㄧㄤˋ': [['xx'], ['xx'], ['xx'], ['xx']],
     '㐖毒': [['xié'], ['dú']],
     '㚻奸': [['jī'], ['jiān']],
     '㞎㞎': [['bǎ'], ['ba']],

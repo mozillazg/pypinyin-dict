@@ -3,6 +3,7 @@ from __future__ import unicode_literals
 
 # Warning: Auto-generated file, don't edit.
 phrases_dict = {
+    '探赜钩深': [['tàn'], ['zé'], ['gōu'], ['shēn']],
     '探赤丸': [['tàn'], ['chì'], ['wán']],
     '探足': [['tàn'], ['zú']],
     '探路': [['tàn'], ['lù']],
@@ -41196,7 +41197,6 @@ phrases_dict = {
     '残碑': [['cán'], ['bēi']],
     '残碣': [['cán'], ['jié']],
     '残秋': [['cán'], ['qiū']],
-    '残租': [['cán'], ['zū']],
 }
 
 

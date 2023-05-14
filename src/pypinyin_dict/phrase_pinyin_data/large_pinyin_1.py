@@ -3,6 +3,7 @@ from __future__ import unicode_literals
 
 # Warning: Auto-generated file, don't edit.
 phrases_dict = {
+    '克朗': [['kè'], ['lǎng']],
     '克朗代克': [['kè'], ['lǎng'], ['dài'], ['kè']],
     '克期': [['kè'], ['qī']],
     '克杀': [['kè'], ['shā']],
@@ -41196,7 +41197,6 @@ phrases_dict = {
     '唯喏': [['wéi'], ['nuò']],
     '唯复': [['wéi'], ['fù']],
     '唯妙唯肖': [['wéi'], ['miào'], ['wéi'], ['xiāo']],
-    '唯心': [['wéi'], ['xīn']],
 }
 
 

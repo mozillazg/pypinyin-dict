@@ -8,7 +8,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="pypinyin-dict",
-    version="0.7.0",
+    version="0.8.0",
     author="mozillazg",
     author_email="mozillazg101@gmail.com",
     description="使用 pinyin-data 和 phrase-pinyin-data 中的拼音数据文件覆盖 pypinyin 中的自带拼音数据，实现只使用某个或某些拼音数据文件中的拼音数据的需求",

@@ -3,6 +3,9 @@ from __future__ import unicode_literals
 
 # Warning: Auto-generated file, don't edit.
 phrases_dict = {
+    '𥻗粥': [['chá'], ['zhōu']],
+    '𩽾𩾌': [['ān'], ['kāng']],
+    '𫚉鱼': [['hóng'], ['yú']],
     '𫫇嗪': [['è'], ['qín']],
     '𬂩提': [['jiā'], ['tí']],
     '𬟁草': [['yì'], ['cǎo']],

@@ -42036,7 +42036,7 @@ pinyin_dict = {
     0x2B7E1: 'cóng',
     0x2B7E2: 'tán',
     0x2B7E4: 'tuó',
-    0x2B7E5: 'kēng, zhěn',
+    0x2B7E5: 'kēng,zhěn',
     0x2B7E6: 'suì',
     0x2B7E8: 'yuǎn',
     0x2B7EA: 'biān',
